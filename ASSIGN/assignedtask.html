@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/torlogo.jpg" alt="Company Logo">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+         <!--<div class="container">
+            <h1>List Of Tasks</h1>
+            <a href="workers.html" class="assign-task">Assign Task</a>
+        </div>-->
+
+
+            <div class="container">
+                <h1>Assigned Tasks</h1>
+                <ul class="message-list">
+                    <li>
+                        <div class="message">
+                            <h2>Pc Id</h2>
+                            <p>Message content goes here...</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="message">
+                            <h2>Pc Id</h2>
+                            <p>Another message content...</p>
+                        </div>
+                    </li>
+                    <!-- Add more messages here -->
+                </ul>
+            </div>
+    </main>
+
+    <script>
+        function changeLinkText(link) {
+            link.innerText = "Assigned";
+            link.classList.add("clicked");
+        }
+    </script>
+
+    <footer class="footer">
+    <p>Copyright © 2023 Tema Oil Refinery. All rights reserved</p>
+  </footer>
+  
+
+</body>
+</html>

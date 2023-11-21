@@ -1,0 +1,222 @@
+
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(10, 101, 175, 0.494);
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .right-link {
+    float: right;
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+.navbar a {
+    float: left;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logo img {
+    height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.assign-task {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.assign-task:hover {
+    background-color: #555;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.message h2 {
+    margin-top: 0;
+}
+
+.assign-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.assign-button:hover {
+    background-color: #555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba(10, 101, 175, 0.494);
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.assign-task {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.assign-task:hover {
+    background-color: #555;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.message h2 {
+    margin-top: 0;
+}
+
+.assign-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.assign-button:hover {
+    background-color: #555;
+}
+
+.link {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:rgba(10, 101, 175, 0.494);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.link.clicked {
+    color: green;
+    text-decoration: none;
+}
+
+.link assign-button:hover{
+    background-color: rgba(163, 15, 15, 0.363);
+}
+
+.footer{
+    background-color:rgba(10, 101, 175, 0.494);
+    color: white;
+    text-align: center;
+    height:40px;
+    margin-top: auto;
+    
+  }
+  
